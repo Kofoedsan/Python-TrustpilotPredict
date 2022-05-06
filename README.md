@@ -4,10 +4,11 @@
     Automatiseret vurderings og karaktergivning af Trustpilots anmeldelser  
     
 #### Short description
-    I dette projekt vil vi gøre det muligt, at forudsige en karakter fra 1-5 ud fra tekstindholdet i en anmeldelse på Trustpilot,
-    og vise om sammenhængen af én virksomheds samlede vurdering passer mellem karakter og anmeldelser. Vi har tænkt os at gøre
-    dette ved at scrape en masse andmeldelser fra forskellige virksomheder på Truspilot ved brug af selenium. Vi vil basere vores
-    model ud fra de indsamlede data.
+    I dette projekt vil vi gøre det muligt, at forudsige en karakter fra 1-5 ud fra tekstindholdet i en
+    anmeldelse på Trustpilot, og vise om sammenhængen af én virksomheds samlede vurdering passer mellem
+    karakter og anmeldelser. Vi har tænkt os at gøre dette ved at scrape en masse andmeldelser fra
+    forskellige virksomheder på Truspilot ved brug af selenium. Vi vil basere vores model ud fra de
+    indsamlede data.
 
     Med vores model vil vi:
 
