@@ -18,8 +18,8 @@
     2.  Forudsige hvilken karakter en anmelder vil give ud fra den anmeldselse de har skrevet. (Regression)
     2a. Sammenlign med den aktuelle anmelder karakter.
 
-    3.  Vis sansynligheden for predictions indenfor Trustpilots fem katagorier: Fremragende, God, Middel, Uder middel, Dårlig,
-        for en specifik anmeldelse. (Classification)
+    3.  Vis sansynligheden for predictions indenfor Trustpilots fem katagorier: Fremragende, God, Middel,
+        Uder middel, Dårlig, for en specifik anmeldelse. (Classification)
 
     4.  Gruppere og plot ratings for én specifik virksomhed i et 3D feature space. (Clustering)
 
