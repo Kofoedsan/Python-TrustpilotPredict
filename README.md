@@ -24,6 +24,9 @@
     4.  Gruppere og plot ratings for én specifik virksomhed i et 3D feature space. (Clustering)
 
     5.  Brug WordCloud til og plotte de mest anvendte Negative og Positive ord.
+        5.a Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
+        
+    6. Sammenlign fasttext med sklearn og se hvilken model der er mest præcis.
     
 #### List of used technologies
       Webscraping
@@ -35,6 +38,8 @@
       WordCloud
       Files
       Machine learning
+      Fasttext
+      Sklearn
 
 #### Installation guide (if any libraries need to be installed)
     TBD
