@@ -4,29 +4,35 @@
     Automatiseret vurderings og karaktergivning af Trustpilots anmeldelser  
     
 #### Short description
-    I dette projekt vil vi gøre det muligt, at forudsige en karakter fra 1-5 ud fra tekstindholdet i en
-    anmeldelse på Trustpilot, og vise om sammenhængen af én virksomheds samlede vurdering passer mellem
-    karakter og anmeldelser. Vi har tænkt os at gøre dette ved at scrape en masse andmeldelser fra
-    forskellige virksomheder på Truspilot ved brug af selenium. Vi vil basere vores model ud fra de
+    I dette projekt har vi gjort det muligt, at forudsige en karakter fra 1-5 ud fra tekstindholdet i en
+    anmeldelse på Trustpilot, og vise om sammenhængen af ((((én virksomheds samlede vurdering))) passer mellem
+    karakter og anmeldelser. Vi har gjort dette ved at scrape en masse andmeldelser fra
+    forskellige virksomheder på Truspilot og baseret vores model ud fra de
     indsamlede data.
 
-    Med vores model vil vi:
 
-    1.  Evaluére og fastslå hvor brugbar modellen er ved at sammenligne træningsdata- og valideringsdata.
-    1a. Efterjustér modellens definition efter behov.
+    I vores projekt har vi:
 
-    2.  Forudsige hvilken karakter en anmelder vil give ud fra den anmeldselse de har skrevet. (Regression)
-    2a. Sammenlign med den aktuelle anmelder karakter.
 
-    3.  Vis sansynligheden for predictions indenfor Trustpilots fem katagorier: Fremragende, God, Middel,
+	1. 	Webscrape data
+		1a Rens & filtrer data med beautifulsoup.
+		1b Træn sklearn & fasttext på samme dataset.
+
+	2. 	Sammenlign fasttext med sklearn og se hvilken model der er mest præcis.
+	
+    3.  Evaluére og fastslå hvor brugbar modellen er ved at sammenligne træningsdata- og valideringsdata.
+		3a. Efterjustér modellens definition efter behov.
+
+    4.  Forudsige hvilken karakter en anmelder vil give ud fra den anmeldselse de har skrevet. (Regression)
+		4a. Sammenlign med den aktuelle anmelder karakter.
+
+    5.  Vis sansynligheden for predictions indenfor Trustpilots fem katagorier: Fremragende, God, Middel,
         Uder middel, Dårlig, for en specifik anmeldelse. (Classification)
 
-    4.  Gruppere og plot ratings for én specifik virksomhed i et 3D feature space. (Clustering)
+    6.  Gruppere og plot ratings for én specifik virksomhed i et 3D feature space. (Clustering)
 
-    5.  Brug WordCloud til og plotte de mest anvendte Negative og Positive ord.
-        5.a Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
-        
-    6. Sammenlign fasttext med sklearn og se hvilken model der er mest præcis.
+    7.  Brug WordCloud til og plotte de mest anvendte Negative og Positive ord.
+        7.a Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
     
 #### List of used technologies
       Webscraping
