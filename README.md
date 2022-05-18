@@ -14,25 +14,17 @@
     I vores projekt har vi:
 
 
-	1. 	Webscrape data
-		1a Rens & filtrer data med beautifulsoup.
-		1b Træn sklearn & fasttext på samme dataset.
-
-	2. 	Sammenlign fasttext med sklearn og se hvilken model der er mest præcis.
+	1. Webscrape, rens & filtrer data med beautifulsoup.
+		
+	2. Træn & sammenlign fasttext med sklearn på samme dataset og se hvilken model der er mest præcis.
 	
-    3.  Evaluére og fastslå hvor brugbar modellen er ved at sammenligne træningsdata- og valideringsdata.
-		3a. Efterjustér modellens definition efter behov.
+    3. Evaluére og fastslå hvor brugbar modellen er ved at sammenligne træningsdata- og valideringsdata.
 
-    4.  Forudsige hvilken karakter en anmelder vil give ud fra den anmeldselse de har skrevet. (Regression)
-		4a. Sammenlign med den aktuelle anmelder karakter.
+    4. Forudsig og sammenlign aktuelle ratings af reviews.
 
-    5.  Vis sansynligheden for predictions indenfor Trustpilots fem katagorier: Fremragende, God, Middel,
-        Uder middel, Dårlig, for en specifik anmeldelse. (Classification)
+    5. Gruppere og plot ratings for én specifik virksomhed i et 3D feature space.
 
-    6.  Gruppere og plot ratings for én specifik virksomhed i et 3D feature space. (Clustering)
-
-    7.  Brug WordCloud til og plotte de mest anvendte Negative og Positive ord.
-        7.a Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
+    6. Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
     
 #### List of used technologies
       Webscraping
