@@ -11,7 +11,7 @@
 
     I vores projekt har vi:
 
-		1. Webscrapeet, renset & filtreret data.
+		1. Webscrapet, renset & filtreret data.
 		
 		2. Trænet & sammenlignet fastText med Sklearn på samme dataset for at se hvilken model der er mest præcis.
 	
