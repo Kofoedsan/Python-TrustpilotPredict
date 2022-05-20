@@ -57,11 +57,11 @@
 	 - WordCloud
 
 
-#### Installation guide (if any libraries need to be installed)
+#### Installation guide
     Projektet er sat op til at afvikles i Jypyter Notebook.
     Kør 00_install for at installere manglende packages.
     
-#### User guide (how to run the program)
+#### User guide
     Projektet skal køres i kronologisk orden, dvs. oppe fra og ned:
     00_install
     01_webscraping_request
@@ -72,8 +72,11 @@
     05_feature_space
     06_wordcloud
     
-#### Status (What has been done (and if anything: what was not done))
+#### Status
     Alle opgaver er besvaret.
     
-#### List of Challenges you have set up for your self (The things in your project you want to highlight)
-    TBD
+#### List of Challenges
+    At gøre statiske funktion skalérbar.
+    Model skal kunne predict korrekt med minimum 70%
+    
+    
