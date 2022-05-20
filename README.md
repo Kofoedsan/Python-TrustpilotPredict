@@ -58,10 +58,19 @@
 
 
 #### Installation guide (if any libraries need to be installed)
-    TBD
+    Projektet er sat op til at afvikles i Jypyter Notebook.
+    Kør 00_install for at installere manglende packages.
     
 #### User guide (how to run the program)
-    TBD
+    Projektet skal køres i kronologisk orden, dvs. oppe fra og ned:
+    00_install
+    01_webscraping_request
+    01a_webscraping_clean
+    02_models
+    03_evaluate_fasttext
+    04_predict_rating
+    05_feature_space
+    06_wordcloud
     
 #### Status (What has been done (and if anything: what was not done))
     TBD
