@@ -5,48 +5,78 @@
     
 #### Short description
     I dette projekt har vi gjort det muligt, at forudsige en karakter fra 1-5 ud fra tekstindholdet i en
-    anmeldelse på Trustpilot, og vise om sammenhængen af ((((én virksomheds samlede vurdering))) passer mellem
-    karakter og anmeldelser. Vi har gjort dette ved at scrape en masse andmeldelser fra
-    forskellige virksomheder på Truspilot og baseret vores model ud fra de
-    indsamlede data.
-
+    anmeldelse fra Trustpilot, og vise om sammenhængen passer mellem karakter og den givne anmeldelse.
+    Ved hjælp af webscraping har vi indsamlet en masse andmeldelser fra forskellige virksomheder på Truspilot og
+    baseret vores model på denne data.
 
     I vores projekt har vi:
 
-
-	1. Webscrape, rens & filtrer data med beautifulsoup.
+		1. Webscrapeet, renset & filtreret data.
 		
-	2. Træn & sammenlign fasttext med sklearn på samme dataset og se hvilken model der er mest præcis.
+		2. Trænet & sammenlignet fastText med Sklearn på samme dataset for at se hvilken model der er mest præcis.
 	
-    3. Evaluére og fastslå hvor brugbar modellen er ved at sammenligne træningsdata- og valideringsdata.
+		3. Evaluéret og fastslået hvor brugbar den valgte model er ved at sammenligne træningsdata- med valideringsdata.
 
-    4. Forudsig og sammenlign aktuelle ratings af reviews.
+		4. Forudset og sammenlignet Trustpilot's aktuelle ratings af reviews med vores trænede model.
 
-    5. Gruppere og plot ratings for én specifik virksomhed i et 3D feature space.
+		5. Visualiseret sammenhængen mellem karakter og review i et 3D feature space.
 
-    6. Brug WordCloud til at plotte de mest anvendte ord for hver af rating.
+		6. Anvendt WordCloud for at konkludere, hvilke ord der fremtræder oftes for hver rating.
     
 #### List of used technologies
-      Webscraping
-      Request
-      Pandas
-      Numpy
-      Neural network(NLTK)                                     
-      BS4
-      WordCloud
-      Files
-      Machine learning
-      Fasttext
-      Sklearn
 
-#### Installation guide (if any libraries need to be installed)
-    TBD
+	Common
+	 - Regular Expressions (RE)
+	 - Tabulate
+	 - ThreadPoolExecutor
+	 - Time
+	 - tqdm (ProgressBar)
+	
+	Data Analysis
+	 - Pandas
+
+	Files
+	 - Glob
+	 - Pickle
+	
+	Math
+	 - Random
+	 - Numpy
+
+	Plot
+	 - matplotlib
+	
+	Webscraping
+	 - BeautifulSoup (BS4)
+	 - Request
+	
+	Machine learning
+	 - FastText
+	 - Natural Language Toolkit (NLTK)
+	 - Scikit-learn (Sklearn)
+	 - WordCloud
+
+
+#### Installation guide
+    Projektet er sat op til at afvikles i Jypyter Notebook.
+    Kør 00_install for at installere manglende packages.
     
-#### User guide (how to run the program)
-    TBD
+#### User guide
+    Projektet skal køres i kronologisk orden, dvs. oppe fra og ned:
+    00_install
+    01_webscraping_request
+    01a_webscraping_clean
+    02_models
+    03_evaluate_fasttext
+    04_predict_rating
+    05_feature_space
+    06_wordcloud
     
-#### Status (What has been done (and if anything: what was not done))
-    TBD
+#### Status
+    Alle opgaver er besvaret.
     
-#### List of Challenges you have set up for your self (The things in your project you want to highlight)
-    TBD
+#### List of Challenges
+    At gøre statiske funktion skalérbar.
+    Model skal kunne predict korrekt med minimum 70%
+    
+    
