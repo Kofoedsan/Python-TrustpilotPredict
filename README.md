@@ -73,7 +73,7 @@
     06_wordcloud
     
 #### Status (What has been done (and if anything: what was not done))
-    TBD
+    Alle opgaver er besvaret.
     
 #### List of Challenges you have set up for your self (The things in your project you want to highlight)
     TBD
