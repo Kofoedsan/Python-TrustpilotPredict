@@ -4,7 +4,6 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 /data/dumps/
-/data/combined_csv.csv
 /data/alfinans.dump
 /data/av-cables.dump
 /data/cdon.dump
