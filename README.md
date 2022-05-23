@@ -76,7 +76,9 @@
     Alle opgaver er besvaret.
     
 #### List of Challenges
-    At gøre statiske funktion skalérbar.
-    Model skal kunne predict korrekt med minimum 70%
+    Modellen skal kunne predicte korrekt med minimum 70%
+    Omskrive statiske funktioner til skalérbare.
+    Skabe en rød tråd i opgaverne.
+    
     
     
