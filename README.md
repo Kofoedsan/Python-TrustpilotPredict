@@ -19,7 +19,7 @@
 
 		4. Forudset og sammenlignet Trustpilot's aktuelle ratings af reviews med vores trænede model.
 
-		5. Visualiseret sammenhængen mellem karakter og review i et 3D feature space.
+		5. Visualiseret sammenhængen mellem karakter og review i et feature space.
 
 		6. Anvendt WordCloud for at konkludere, hvilke ord der fremtræder oftes for hver rating.
     
