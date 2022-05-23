@@ -3,6 +3,8 @@
 .vs/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+/data/*.train
+/data/*.valid
 /data/dumps/
 /data/alfinans.dump
 /data/av-cables.dump
